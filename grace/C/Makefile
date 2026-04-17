@@ -1,5 +1,5 @@
 CC			= cc
-CFLAGS		= -Wall -Wextra -Werror -ggdb -nostartfiles
+CFLAGS		= -Wall -Wextra -Werror
 
 OBJ_DIR		= objs
 
