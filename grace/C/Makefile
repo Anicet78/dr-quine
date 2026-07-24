@@ -21,7 +21,7 @@ clean:
 	rm -rf $(OBJ_DIR)
 
 fclean: clean
-	rm -rf $(NAME)
+	rm -rf $(NAME) Grace_kid.c
 
 re: fclean all
 
