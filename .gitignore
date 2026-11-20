@@ -10,4 +10,4 @@ Sully_*
 Sully
 
 # Objs
-objs/
+*.o
