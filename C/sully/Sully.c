@@ -18,4 +18,6 @@ int main(void) {
 	if (system(buff) == -1) return (1);
 	if (sprintf(buff, "./Sully_%d", i) == -1) return (1);
 	if (system(buff) == -1) return (1);
+	if (close(fd) == -1) return (1);
+	return (0);
 }
